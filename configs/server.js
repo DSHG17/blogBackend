@@ -4,6 +4,7 @@ import express from "express"
 import cors from "cors"
 import helmet from "helmet"
 import morgan from "morgan"
+import publicationRoutes from "../src/publication/publication-routes.js"
 import { dbConnection } from "./mongo.js"
 
 const middlewares = (app) => {
@@ -15,6 +16,9 @@ const middlewares = (app) => {
 }
 
 
+const routes = (app) => {
+    app.use("/blog/v1/publication", publicationRoutes)
+}
 
 const conectarDB = async () =>{
     try{
@@ -29,6 +33,7 @@ export const initServer = () => {
     const app = express()
     try{
         middlewares(app)
+        routes(app)
         conectarDB()
         app.listen(process.env.PORT)
         console.log(`Server running on port ${process.env.PORT}`)
