@@ -11,3 +11,7 @@ export const createPublicationValidator = [
     deleteFileOnError,
     handleErrors
 ]
+
+export const getAllPublicationsValidator = [
+    handleErrors
+]

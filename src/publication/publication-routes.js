@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { createPublication } from "./publication-controller.js";
-import { createPublicationValidator } from "../middlewares/publication-validators.js";
+import { createPublication, getAllPublications } from "./publication-controller.js";
+import { createPublicationValidator, getAllPublicationsValidator } from "../middlewares/publication-validators.js";
 import { uploadPublicationPictures } from "../middlewares/multer-upload.js";
 
 const router = Router()
@@ -68,5 +68,43 @@ router.post(
   
 
 router.post("/post",uploadPublicationPictures.single("publicationPicture"),createPublicationValidator,createPublication)
+
+/**
+ * @openapi
+ * /blog/v1/publication/getPost:
+ *   get:
+ *     summary: Obtener todas las publicaciones
+ *     description: Devuelve una lista de todas las publicaciones, con opción de filtrar por curso y estado.
+ *     tags:
+ *       - Publicaciones
+ *     parameters:
+ *       - in: query
+ *         name: class
+ *         schema:
+ *           type: string
+ *           enum: [TICS, TALLER, TECNO]
+ *         description: Filtrar por curso (opcional)
+ *         example: TECNO
+ *       - in: query
+ *         name: status
+ *         schema:
+ *           type: boolean
+ *         description: Filtrar por estado (opcional)
+ *         example: true
+ *     responses:
+ *       200:
+ *         description: Lista de publicaciones
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/Publication'
+ *       400:
+ *         description: Error en los parámetros de consulta
+ *       500:
+ *         description: Error del servidor
+ */
+router.get("/getPost", getAllPublicationsValidator, getAllPublications);
 
 export default router

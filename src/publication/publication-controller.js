@@ -18,3 +18,17 @@ export const createPublication = async(req,res)=>{
         });
     }
 }
+
+export const getAllPublications = async (req, res) => {
+    try {
+      const publicaciones = await Publication.find().sort({ date: -1 }); // ordenadas por fecha descendente
+      res.status(200).json(publicaciones);
+    } catch (err) {
+      console.error("❌ Error al obtener publicaciones:", err);
+      res.status(500).json({
+        success: false,
+        message: "Error al obtener publicaciones",
+        error: err.message
+      });
+    }
+  };

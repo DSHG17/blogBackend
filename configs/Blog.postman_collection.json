@@ -58,6 +58,59 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "getAllPublications",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Waza",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Chino carranza",
+									"type": "text"
+								},
+								{
+									"key": "class",
+									"value": "TECNO",
+									"type": "text"
+								},
+								{
+									"key": "publicationPicture",
+									"type": "file",
+									"src": "/C:/Users/dshgo/Desktop/rin.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/blog/v1/publication/getPost",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"blog",
+								"v1",
+								"publication",
+								"getPost"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}
