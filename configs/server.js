@@ -5,6 +5,7 @@ import cors from "cors"
 import helmet from "helmet"
 import morgan from "morgan"
 import publicationRoutes from "../src/publication/publication-routes.js"
+import commentaryRoutes from "../src/commentary/commentary-routes.js"
 import { dbConnection } from "./mongo.js"
 
 const middlewares = (app) => {
@@ -18,6 +19,7 @@ const middlewares = (app) => {
 
 const routes = (app) => {
     app.use("/blog/v1/publication", publicationRoutes)
+    app.use("/blog/v1/commentary",commentaryRoutes)
 }
 
 const conectarDB = async () =>{
