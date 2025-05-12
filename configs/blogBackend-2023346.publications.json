@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "68218261191c43f24e17d230"
+  },
+  "title": "Laboratorio # 1 - página web",
+  "description": "Cree una serie de páginas HTML con su respectivo archivo de estilo CSS. Mi tarea: https://1drv.ms/u/c/611a4bd89eb3eaaf/EYxEB0ZyhS1CopsQUXhvnIwBVMgjFB4kaxgHY9IKjK-oqA?e=Xi6EOu",
+  "author": "Derian Hernández",
+  "class": "TALLER",
+  "publicationPicture": "Tarea 1 Taller-1747026529878.png",
+  "status": false,
+  "date": {
+    "$date": "2025-05-12T05:08:49.885Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T05:08:49.888Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T05:08:49.888Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682182ec191c43f24e17d234"
+  },
+  "title": "Laboratorio # 2 - Adición de funcionalidades",
+  "description": "Agregar funcionalidades a un programa. Mi tarea:  https://github.com/DSHG17/Lab2.git",
+  "author": "Derian Hernández",
+  "class": "TALLER",
+  "publicationPicture": "Tarea 2 Taller-1747026668035.png",
+  "status": false,
+  "date": {
+    "$date": "2025-05-12T05:11:08.037Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T05:11:08.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T05:11:08.037Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68218350191c43f24e17d238"
+  },
+  "title": "Proyecto Bimestral - avance",
+  "description": "Presentación de avance. Mi tarea:  https://github.com/DSHG17/eCommerce.git",
+  "author": "Derian Hernández",
+  "class": "TALLER",
+  "publicationPicture": "Tarea 3 Taller-1747026768840.png",
+  "status": false,
+  "date": {
+    "$date": "2025-05-12T05:12:48.842Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T05:12:48.842Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T05:12:48.842Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183c9191c43f24e17d23e"
+  },
+  "title": "\n Infografía HTML, CSS, PreProcesadores",
+  "description": "Infográfia",
+  "author": "Derian Hernández",
+  "class": "TECNO",
+  "publicationPicture": "Tarea 1 Tecno-1747026889112.png",
+  "status": false,
+  "date": {
+    "$date": "2025-05-12T05:14:49.114Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T05:14:49.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T05:14:49.115Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68218421191c43f24e17d244"
+  },
+  "title": "Mapa conceptual",
+  "description": "Mapa Conceptual",
+  "author": "Derian Hernández",
+  "class": "TECNO",
+  "publicationPicture": "Tarea 2 Tecno-1747026977992.png",
+  "status": false,
+  "date": {
+    "$date": "2025-05-12T05:16:17.993Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T05:16:17.994Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T05:16:17.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821846c191c43f24e17d248"
+  },
+  "title": "Mapa mental",
+  "description": "Mapa mental",
+  "author": "Derian Hernández",
+  "class": "TECNO",
+  "publicationPicture": "Tarea 3 Tecno-1747027052604.png",
+  "status": false,
+  "date": {
+    "$date": "2025-05-12T05:17:32.606Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T05:17:32.606Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T05:17:32.606Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821850b191c43f24e17d24a"
+  },
+  "title": "Agenda Web",
+  "description": "Agenda Web. Mi tarea: https://1drv.ms/u/c/611a4bd89eb3eaaf/EYn5mtsqnqJKmZzrJvgh260BmO1GBXY50rFcDgA3h5z7Tg?e=iNgt6l",
+  "author": "Derian Hernández",
+  "class": "TICS",
+  "publicationPicture": "Tarea 1 Practica-1747027211355.png",
+  "status": false,
+  "date": {
+    "$date": "2025-05-12T05:20:11.357Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T05:20:11.358Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T05:20:11.358Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821856a191c43f24e17d24c"
+  },
+  "title": "Administración de alumnos",
+  "description": "Administración de alumnos. Mi tarea: https://github.com/DSHG17/Educative_Platform.git",
+  "author": "Derian Hernández",
+  "class": "TICS",
+  "publicationPicture": "Tarea Practica 2-1747027306375.png",
+  "status": false,
+  "date": {
+    "$date": "2025-05-12T05:21:46.377Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T05:21:46.378Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T05:21:46.378Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682185b4191c43f24e17d250"
+  },
+  "title": "Gestor de opiniones",
+  "description": "Gestor de opiniones. Mi tarea: https://github.com/DSHG17/kampekiOpinions",
+  "author": "Derian Hernández",
+  "class": "TICS",
+  "publicationPicture": "Tarea 3 Practica-1747027380390.png",
+  "status": false,
+  "date": {
+    "$date": "2025-05-12T05:23:00.392Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T05:23:00.392Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T05:23:00.392Z"
+  }
+}]
