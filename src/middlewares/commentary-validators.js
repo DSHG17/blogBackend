@@ -9,5 +9,8 @@ export const  createCommentaryValidator = [
     body("publicationId").custom(publicationExist),
     validateFields,
     handleErrors
+]
 
+export const getCommentsByPublicationValidator = [
+    handleErrors
 ]

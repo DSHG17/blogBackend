@@ -20,6 +20,8 @@ const swaggerOptions = {
         ]
     },
     apis:[
+        "./src/commentary/*.js",
+        "./src/publication/*.js"
     ]
 }
 

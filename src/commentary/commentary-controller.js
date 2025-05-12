@@ -18,3 +18,23 @@ export const createComment = async (req, res) => {
       });
     }
   };
+
+
+
+export const getCommentsByPublication = async (req, res) => {
+  try {
+    const { publicationId } = req.params;
+
+    const comentarios = await Commentary.find({ publicationId })
+      .sort({ date: -1 }); 
+
+    res.status(200).json(comentarios);
+  } catch (err) {
+    console.error("Error al obtener comentarios:", err);
+    res.status(500).json({
+      success: false,
+      message: "Error al obtener comentarios",
+      error: err.message
+    });
+  }
+};

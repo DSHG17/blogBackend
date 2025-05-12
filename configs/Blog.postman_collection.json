@@ -150,6 +150,39 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name\":\"Pichiya\",\r\n\"content\":\"Chino carranza\",\r\n\"publicationId\":\"681e167e228786d8e5597e86\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/blog/v1/commentary/getCommentary/681e167e228786d8e5597e86",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"blog",
+								"v1",
+								"commentary",
+								"getCommentary",
+								"681e167e228786d8e5597e86"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}
