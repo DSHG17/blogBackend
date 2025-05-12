@@ -4,6 +4,7 @@ export const createPublication = async(req,res)=>{
     try{
         const data = req.body
         let publicationPicture = req.file ? req.file.filename : null
+        console.log(publicationPicture)
         
         data.publicationPicture  = publicationPicture 
         const publication = await Publication.create(data)
