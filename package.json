@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/DSHG17/blogBackend#readme",
   "dependencies": {
+    "blogbackend": "file:",
     "cors": "^2.8.5",
     "date-fns": "^4.1.0",
     "dotenv": "^16.4.7",
